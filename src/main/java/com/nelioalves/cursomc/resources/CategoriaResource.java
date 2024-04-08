@@ -24,6 +24,10 @@ public class CategoriaResource {
 	public ResponseEntity<?> find(@PathVariable Integer id) {
 		Categoria obj =  service.find(id);
 		return ResponseEntity.ok(obj);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> b595ed76d9df3d500adb5878c9768636fbf8b7ea
 	}
 
 }
